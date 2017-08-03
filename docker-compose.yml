@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build: web
+    ports:
+     - "8888:8888"
+    command: nginx
+  proxy:
+    build: proxy
+    ports:
+     - "80:80"
+     - "443:443"
