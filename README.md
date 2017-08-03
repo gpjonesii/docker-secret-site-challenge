@@ -43,7 +43,8 @@ The content should be available at https://<host:port>/uj47G/index.htm
 
 ## Running 
 
-
-```docker-compose build
-docker-compose up```
+```
+> docker-compose build
+> docker-compose up
+```
 
